@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "ES6",                                  // Modern JavaScript syntax
+    "module": "ESNext",                               // Enables ES module system
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],         // Includes DOM and modern ECMAScript features
+    "allowJs": true,                                  // Allows JavaScript files in the project                             // React 17+ JSX transform
+    "strict": true,                                   // Enables all strict type-checking options                          // Eases CommonJS module imports
+    "forceConsistentCasingInFileNames": true,         // Enforce consistent casing in imports
+    "skipLibCheck": true 
+                                 // Skip type checking of declaration files
+  },
+  "include": ["src"],                                 // Includes only the source directory
+  "exclude": ["node_modules", "build"],              // Excludes unnecessary directories
+  "compileOnSave": true                               // Recompile on file save
+}
+
